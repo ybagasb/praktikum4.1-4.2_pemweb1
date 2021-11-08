@@ -1,0 +1,167 @@
+/* header */
+header {
+    display: flex;
+    width: 700px;
+    height: 60px;
+    margin-top: 20px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+.name img {
+    width: 17px;
+    height: 20px;
+    margin-left: -30px;
+}
+nav {
+    margin-left: -40px;
+    margin-right: 80px;
+}
+nav a, .td3 a, .td4 a, .category a {
+    color: blue;
+    text-decoration: none;
+}
+.icon img {
+    width: 20px;
+}
+.b {
+    font-size: 18px;
+    vertical-align: 4px;
+}
+/* main */
+main {
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.left-column{
+    width: 60%;
+    float: left; 
+    padding-left: 20px; 
+    padding-top: 25px; 
+    padding-right: 30px;
+}
+.table1 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.table1 td {
+    display: flex;
+}
+.table1 b {
+    font-size: 20px;
+}
+.td1 {
+    padding-top: 9px; 
+    border-top: 1px solid black;
+}
+.td2 {
+    padding-right: 70px; 
+    border-bottom: 1px solid black;
+}
+.th1 {
+    font-size: 20px; 
+    padding-bottom: 5px; 
+    padding-top: 5px;
+}
+.td3 {
+    padding-top: 20px;
+}
+.td4 {
+    padding-left: 30px; 
+    padding-top: 20px;
+}
+.td5 {
+    padding-top: 20px; 
+    padding-bottom: 30px;
+}
+.td6 {
+    padding-left: 30px; 
+    padding-bottom: 30px;
+}
+.td6 img {
+    height: 18px; 
+    vertical-align: -4px;
+}
+.td7 {
+    padding-left: 5px;
+}
+.td8, .td9 {
+    float: right;
+}
+.td10 {
+    float: right; 
+    padding-left: 105px;
+}
+.right-column {
+    float: right; 
+    width: 220px; 
+    height: 230px; 
+    margin-top: 40px;
+    margin-right: 10px;
+    background-color: lightgray;
+}
+.right-column table {
+    padding-left: 12px; 
+    padding-top: 10px;
+}
+.hr1 {
+    width: 80%; 
+    color: white;
+}
+.table2 {
+    margin-top: -10px;
+}
+.left-column h3 {
+    padding-left: 5px;
+}
+.voucer {
+    display: flex; 
+    padding-left: 5px;
+}
+.voucer input {
+    width: 140px;
+    margin-left: 10px; 
+}
+.voucer button {
+    cursor: pointer;
+}
+/* footer */
+footer {
+    width: 700px;
+    height: 60px;
+    margin: auto;
+    border: 1px solid black;
+}
+.name-bottom {
+    display: grid;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.category {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.kartu img {
+    width: 20px;
+}
+footer {
+    display: flex;
+}
+.stay {
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.email {
+    background-color: gray;
+}
+.email b {
+    margin-left: 15px;
+    cursor: pointer;
+}
